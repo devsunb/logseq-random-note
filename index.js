@@ -167,10 +167,10 @@ function main() {
   });
 
   logseq.App.registerUIItem("toolbar", {
-    key: "logseq-random-note-toolbar",
+    key: "logseq-random-note",
     template: `
       <span class="logseq-random-note-toolbar">
-        <a title="I'm Feeling Lucky(r n)" class="button" data-on-click="handleRandomNote">
+        <a title="I'm Feeling Lucky (g r)" class="button" data-on-click="handleRandomNote">
           <i class="ti ti-windmill"></i>
         </a>
       </span>
@@ -183,7 +183,7 @@ function main() {
       label: "Random note => Let's go",
       keybinding: {
         mode: "non-editing",
-        binding: "r n",
+        binding: "g r",
       },
     },
     () => {
